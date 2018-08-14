@@ -26,6 +26,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var currentGlobal = [];
 var not = false;
 
+_vueEBus2.default.$on('vueacl-permission-changed', function (newPermission) {
+  currentGlobal = newPermission;
+});
+
 /**
  * Register all plugin actions
  * 
