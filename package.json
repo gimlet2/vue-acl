@@ -28,7 +28,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2015": "^6.24.1",
-    "vue": "^2.5.16"
+    "vue": "^3.0.0"
   },
   "dependencies": {
     "vue-e-bus": "^1.0.0"
